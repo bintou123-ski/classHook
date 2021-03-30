@@ -4,13 +4,15 @@ import ClassCounter from "./components/ClassCounter";
 import HookCounter from "./components/HookCounter";
 import ClassCounterTwo from "./components/ClassCounterTwo";
 import HookCounterTwo from "./components/HookCounterTwo";
+import HookCounterThree from './components/HookCounterThree';
 
 const App = ()=>{
     return(
         <div>
-            <ClassCounterTwo/>
+            <HookCounterThree/>
+            {/*<ClassCounterTwo/>
             <HookCounterTwo/>
-           {/*<ClassCounter/>
+           <ClassCounter/>
             <HookCounter/>*/}
         </div>
     )
