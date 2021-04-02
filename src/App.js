@@ -5,12 +5,22 @@ import HookCounter from "./components/HookCounter";
 import ClassCounterTwo from "./components/ClassCounterTwo";
 import HookCounterTwo from "./components/HookCounterTwo";
 import HookCounterThree from './components/HookCounterThree';
+import ClassCounterOne from "./components/ClassCounterOne";
+import HookCounterOne from './components/HookCounterOne';
+import HookMouse from './components/HookMouse';
+import Mousecontainer from './components/Mousecontainer';
+import IntervalHookCounter from './components/IntervalHookCounter';
 
 const App = ()=>{
     return(
         <div>
+           {/*<IntervalHookCounter/>
+             <Mousecontainer/>
+            <HookMouse/>
+             <ClassCounterOne/>
+          <HookCounterOne/>
             <HookCounterThree/>
-            {/*<ClassCounterTwo/>
+            <ClassCounterTwo/>
             <HookCounterTwo/>
            <ClassCounter/>
             <HookCounter/>*/}
